@@ -1,42 +1,54 @@
 # Arman — Backend Developer 👋
 
-Backend developer focused on building practical, production-oriented web applications with **Python, Django, Django REST Framework, and PostgreSQL**.
+Backend developer focused on building practical web applications and REST APIs with **Python, Django, Django REST Framework, and PostgreSQL**.
 
-I learn by designing and building real systems end-to-end: authentication, APIs, database modeling, business rules, media handling, and maintainable backend architecture.
-
----
-
-## 🚀 What I'm Building
-
-### 🏋️ Coach Management System — Django REST API
-A Persian-first coaching platform for managing students, training/nutrition/corrective programs, payments, exercise media, and program history.
-
-**Current backend stack**
-
-`Python 3.11` · `Django 5` · `Django REST Framework` · `PostgreSQL` · `JWT` · `Git`
-
-**Implemented / in progress**
-
-- JWT authentication and protected API endpoints
-- PostgreSQL-based project setup
-- Exercise bank with muscle groups and exercise media
-- GIF / WebM media support
-- Exercise seed/import management command
-- Persian user-facing labels and validation direction
-- Architecture for coach and student panels
-- Program types: bodybuilding, nutrition, and corrective
-- 45-day program period rules and archive requirements
-- Payment and notification workflow planning
-
-> This project is actively being developed with a focus on clean backend architecture and real-world business rules.
+I learn by building real systems end-to-end: authentication, database design, API development, business rules, media handling, security, and maintainable backend architecture.
 
 ---
 
-### 🛒 Django E-Commerce
+## 🚀 Featured Project
+
+### 🏋️ Coach Management System
+
+**Persian-first coaching management backend built with Django REST Framework and PostgreSQL.**
+
+> 🚧 Currently under active development.
+
+The project is being built incrementally as a real backend system for coach/student workflows.
+
+**Implemented so far**
+- JWT authentication
+- Custom coach/student roles
+- Student management APIs
+- PostgreSQL integration
+- Exercise bank and muscle groups
+- Exercise media support
+- 100-entry exercise seed dataset
+- Exercise import management command
+- Environment-based configuration and secret protection
+
+**Planned next**
+- Program management
+- 45-day program lifecycle
+- Program archive/history
+- Payments and notifications
+- Coach and student dashboards
+- Automated tests
+- Production deployment
+
+**Stack**
+
+`Python 3.11` · `Django 5.2` · `Django REST Framework` · `PostgreSQL` · `JWT` · `Git`
+
+👉 **[View Coach Management System](https://github.com/arman-031/coach-management-system)**
+
+---
+
+## 🛒 Django E-Commerce
+
 A Django e-commerce application implementing common shopping and order-management workflows.
 
 **Key features**
-
 - User authentication
 - Product and category management
 - Search and filtering
@@ -46,48 +58,53 @@ A Django e-commerce application implementing common shopping and order-managemen
 - Discount codes
 - Django Admin
 
-👉 [View repository](https://github.com/arman-031/django-ecommerce)
+👉 **[View Django E-Commerce](https://github.com/arman-031/django-ecommerce)**
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Backend
+**Backend**
+
 `Python` `Django` `Django REST Framework` `REST API` `JWT`
 
-### Database
+**Database**
+
 `PostgreSQL` `SQLite`
 
-### Frontend fundamentals
+**Frontend fundamentals**
+
 `HTML` `CSS` `Bootstrap` `JavaScript`
 
-### Tools
+**Tools**
+
 `Git` `GitHub` `VS Code` `Postman`
 
 ---
 
-## 🧠 Backend Topics I'm Focused On
+## 🧠 Backend Areas I'm Developing
 
 - REST API design
-- Authentication & authorization
-- Relational database modeling
+- Authentication and authorization
 - Django ORM
+- Relational database modeling
 - Business-rule implementation
-- Media/file handling
-- API validation and error handling
-- Testing
+- Validation and error handling
+- File and media handling
+- Security and environment configuration
+- Automated testing
 - Maintainable project structure
 - Production-ready Django practices
 
 ---
 
-## 📌 Development Approach
+## 📌 How I Build
 
-I prefer building projects incrementally:
+I prefer incremental development:
 
-`requirements → data model → API design → implementation → testing → refactoring`
+`requirements → data model → API design → implementation → validation → testing → refactoring`
 
-My current goal is to become a strong backend developer who can understand not only *how* to build a feature, but also *why* the architecture is designed that way.
+My focus is not only on making features work, but on understanding why the backend is structured the way it is and how to improve it over time.
 
 ---
 
@@ -97,4 +114,4 @@ My current goal is to become a strong backend developer who can understand not o
 
 ---
 
-⭐ More backend projects and improvements are being added as I continue building production-style Django applications.
+⭐ I’m continuously improving these projects as I develop stronger backend engineering skills.
