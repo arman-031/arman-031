@@ -26,15 +26,25 @@ The project is being built incrementally as a real backend system for coach/stud
 - 100-entry exercise seed dataset
 - Exercise import management command
 - Environment-based configuration and secret protection
+- Core program models and coach/student program APIs
+- Workout sessions and exercise prescriptions
+- Preparation/publication flow and default 45-day expiry logic
+- Soft deletion and restore for programs, sessions and exercise items
+- Student access to published/expired programs with exercise media
+- Jalali publication/expiration timestamps
 
 **Planned next**
-- Program management
-- 45-day program lifecycle
-- Program archive/history
+- Full nutrition-plan content
+- Further workflow validation and completion
+- Scheduled program expiration processing
 - Payments and notifications
 - Coach and student dashboards
 - Automated tests
 - Production deployment
+
+**Testing and status**
+
+The project is unfinished and APIs are checked manually in Postman during development. Automated regression tests and CI are still planned. The nutrition program type exists; detailed meal planning is not implemented yet.
 
 **Stack**
 
@@ -46,7 +56,7 @@ The project is being built incrementally as a real backend system for coach/stud
 
 ## 🛒 Django E-Commerce
 
-A Django e-commerce application implementing common shopping and order-management workflows.
+A Django learning project in active development, with a validated shopping-cart and order workflow.
 
 **Key features**
 - User authentication
@@ -57,6 +67,10 @@ A Django e-commerce application implementing common shopping and order-managemen
 - Order creation
 - Discount codes
 - Django Admin
+- 30 automated regression tests and GitHub Actions
+- Atomic checkout, decimal money and guarded coupon usage
+
+Payment integration, inventory tracking and order/address linkage remain unfinished.
 
 👉 **[View Django E-Commerce](https://github.com/arman-031/django-ecommerce)**
 
