@@ -1,131 +1,68 @@
-# Arman — Backend Developer 👋
+<div align="center">
 
-Backend developer focused on building practical web applications and REST APIs with **Python, Django, Django REST Framework, and PostgreSQL**.
+# Arman · Backend & API Developer
 
-I learn by building real systems end-to-end: authentication, database design, API development, business rules, media handling, security, and maintainable backend architecture.
+**Python · Django · Django REST Framework · PostgreSQL**
 
----
+Building practical backend systems with attention to data integrity, access control, and real-world workflows.
 
-## 🚀 Featured Project
+[![GitHub](https://img.shields.io/badge/GitHub-arman--031-24292f?logo=github&logoColor=white)](https://github.com/arman-031)
+[![BON Coffee CI](https://github.com/arman-031/bon-coffee-django-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/arman-031/bon-coffee-django-demo/actions/workflows/ci.yml)
 
-### 🏋️ Coach Management System
-
-**Persian-first coaching management backend built with Django REST Framework and PostgreSQL.**
-
-> 🚧 Currently under active development.
-
-The project is being built incrementally as a real backend system for coach/student workflows.
-
-**Implemented so far**
-- JWT authentication
-- Custom coach/student roles
-- Student management APIs
-- PostgreSQL integration
-- Exercise bank and muscle groups
-- Exercise media support
-- 100-entry exercise seed dataset
-- Exercise import management command
-- Environment-based configuration and secret protection
-- Core program models and coach/student program APIs
-- Workout sessions and exercise prescriptions
-- Preparation/publication flow and default 45-day expiry logic
-- Soft deletion and restore for programs, sessions and exercise items
-- Student access to published/expired programs with exercise media
-- Jalali publication/expiration timestamps
-
-**Planned next**
-- Full nutrition-plan content
-- Further workflow validation and completion
-- Scheduled program expiration processing
-- Payments and notifications
-- Coach and student dashboards
-- Automated tests
-- Production deployment
-
-**Testing and status**
-
-The project is unfinished and APIs are checked manually in Postman during development. Automated regression tests and CI are still planned. The nutrition program type exists; detailed meal planning is not implemented yet.
-
-**Stack**
-
-`Python 3.11` · `Django 5.2` · `Django REST Framework` · `PostgreSQL` · `JWT` · `Git`
-
-👉 **[View Coach Management System](https://github.com/arman-031/coach-management-system)**
+</div>
 
 ---
 
-## 🛒 Django E-Commerce
+## Selected projects
 
-A Django learning project in active development, with a validated shopping-cart and order workflow.
+### ☕ BON Coffee · Django REST API + Storefront
 
-**Key features**
-- User authentication
-- Product and category management
-- Search and filtering
-- Pagination
-- Session-based shopping cart
-- Order creation
-- Discount codes
-- Django Admin
-- 30 automated regression tests and GitHub Actions
-- Atomic checkout, decimal money and guarded coupon usage
+[![BON Coffee website portfolio cover](https://raw.githubusercontent.com/arman-031/bon-coffee-django-demo/main/assets/portfolio/bon-github-cover.jpg)](https://github.com/arman-031/bon-coffee-django-demo)
 
-Payment integration, inventory tracking and order/address linkage remain unfinished.
+A Persian, responsive coffee-store demo combining a **vanilla JavaScript storefront** with **Django REST Framework and PostgreSQL**. The backend covers catalog, session authentication, favorites, cart, order creation, tracking, and **simulated payments**.
 
-👉 **[View Django E-Commerce](https://github.com/arman-031/django-ecommerce)**
+**Engineering highlights:** user-specific permissions, CSRF-aware authentication, server-calculated totals, Swagger/OpenAPI, Docker Compose configuration, and automated GitHub Actions checks.
 
----
+**Status:** the Netlify link is a **frontend-only public preview**. The Django backend is not deployed publicly; payment is simulated. Docker runtime has not yet been independently verified.
 
-## 🛠️ Tech Stack
+[**Source code & Persian documentation →**](https://github.com/arman-031/bon-coffee-django-demo) · [**Live frontend preview ↗**](https://bon-demo-showcase.netlify.app/) · [**CI results ↗**](https://github.com/arman-031/bon-coffee-django-demo/actions)
 
-**Backend**
+### 🏋️ Coach Management System · Django REST API
 
-`Python` `Django` `Django REST Framework` `REST API` `JWT`
+[![Coach Management System technical overview](https://raw.githubusercontent.com/arman-031/coach-management-system/main/docs/assets/coach-management-system-hero.svg)](https://github.com/arman-031/coach-management-system)
 
-**Database**
+An **in-progress Persian-first backend** for online and in-person coaching. It includes coach/student roles, JWT authentication, exercise media, program publication with a default **45-day** duration, questionnaires, nutrition day/meal/food-item APIs, order and payment workflows, and a coach dashboard statistics API.
 
-`PostgreSQL` `SQLite`
+**Engineering highlights:** program ownership checks, soft deletion, renewal and payment idempotency logic, gateway abstraction, sandbox-only Zarinpal integration, and automated regression tests across multiple Django apps.
 
-**Frontend fundamentals**
+**Status:** under active development. No production payment gateway or public application deployment; full frontend dashboards and background notifications are pending.
 
-`HTML` `CSS` `Bootstrap` `JavaScript`
-
-**Tools**
-
-`Git` `GitHub` `VS Code` `Postman`
+[**Source code & roadmap →**](https://github.com/arman-031/coach-management-system)
 
 ---
 
-## 🧠 Backend Areas I'm Developing
+## Tech stack
 
-- REST API design
-- Authentication and authorization
-- Django ORM
-- Relational database modeling
-- Business-rule implementation
-- Validation and error handling
-- File and media handling
-- Security and environment configuration
-- Automated testing
-- Maintainable project structure
-- Production-ready Django practices
+| Area | Technologies |
+| --- | --- |
+| **Backend** | Python, Django, Django REST Framework, JWT, REST API design |
+| **Data** | PostgreSQL, Django ORM, relational modeling |
+| **Web** | HTML, CSS, JavaScript, RTL / Persian interfaces |
+| **Workflow** | Git, GitHub Actions, Docker Compose, Postman, VS Code |
+| **Focus** | Authentication, permissions, validation, automated testing, maintainable APIs |
 
----
+## How I work
 
-## 📌 How I Build
+I build incrementally: **requirements → data model → API contracts → implementation → permission checks → tests → documentation**.
 
-I prefer incremental development:
-
-`requirements → data model → API design → implementation → validation → testing → refactoring`
-
-My focus is not only on making features work, but on understanding why the backend is structured the way it is and how to improve it over time.
+I care about *why* a system works, not just whether it runs: reliable business rules, clear ownership boundaries, security-conscious defaults, and reproducible project setup.
 
 ---
 
-## 📫 Contact
+<div align="center">
 
-- GitHub: [@arman-031](https://github.com/arman-031)
+**Explore the repositories, code and documentation above.**
 
----
+[GitHub profile](https://github.com/arman-031) · [BON Coffee storefront](https://bon-demo-showcase.netlify.app/)
 
-⭐ I’m continuously improving these projects as I develop stronger backend engineering skills.
+</div>
