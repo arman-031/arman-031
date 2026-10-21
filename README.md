@@ -8,6 +8,7 @@ Building practical backend systems with attention to data integrity, access cont
 
 [![GitHub](https://img.shields.io/badge/GitHub-arman--031-24292f?logo=github&logoColor=white)](https://github.com/arman-031)
 [![BON Coffee CI](https://github.com/arman-031/bon-coffee-django-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/arman-031/bon-coffee-django-demo/actions/workflows/ci.yml)
+[![Coach API CI](https://github.com/arman-031/coach-management-system/actions/workflows/ci.yml/badge.svg)](https://github.com/arman-031/coach-management-system/actions/workflows/ci.yml)
 
 </div>
 
