@@ -40,6 +40,16 @@ An **in-progress Persian-first backend** for online and in-person coaching. It i
 
 [**Source code & roadmap →**](https://github.com/arman-031/coach-management-system)
 
+### 🛍️ Sam Mobo · WordPress / WooCommerce Storefront
+
+[![Sam Mobo desktop portfolio preview](portfolio/sam-mobo/assets/desktop.jpg)](https://sammobo.ir)
+
+A Persian mobile-phone and accessories storefront with responsive layouts, product categories, comparison and wishlist controls, product options and promotional sections.
+
+**My role:** WordPress setup, theme/plugin configuration, page customization, sample content preparation, and publishing on hosting with a custom domain.
+
+[**Live website ↗**](https://sammobo.ir) · [**Project details & desktop/mobile gallery →**](portfolio/sam-mobo/README.md)
+
 ---
 
 ## Tech stack
